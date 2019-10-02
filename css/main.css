@@ -11,7 +11,7 @@ img {
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 nav {
@@ -29,7 +29,12 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover, footer a:hover {
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
@@ -54,13 +59,8 @@ figcaption {
   font-size: .8rem;
 }
 
-footer {
+footer, small {
   font-size: .8rem;
-}
-
-footer > a {
-  color: #8f2440;
-  text-decoration: none;
 }
 
 .serve {
@@ -75,6 +75,10 @@ blockquote {
   color: #222;
   font-size: 1.5rem;
   font-style: italic;
+}
+
+blockquote > strong {
+  font-weight: normal;
 }
 
 #pratt {
