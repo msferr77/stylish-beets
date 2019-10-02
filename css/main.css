@@ -29,9 +29,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #b42885;
-  text-decoration: none;
+nav a:hover, footer a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 figcaption {
@@ -43,4 +43,40 @@ figcaption {
 .intro {
   font-size: 1.125rem;
   font-weight: bold;
+}
+
+.varieties {
+  list-style-type: lower-greek;
+}
+
+.tags {
+  list-style-type: circle;
+  font-size: .8rem;
+}
+
+footer {
+  font-size: .8rem;
+}
+
+footer > a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+.serve {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+blockquote {
+  color: #222;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#pratt {
+  font-size: .8rem;
 }
